@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/petejohanson
+      url-base: https://github.com/zmkfirmware
     - name: badjeff
       url-base: https://github.com/badjeff
   projects:
@@ -14,9 +14,9 @@ manifest:
       revision: zmk-v0.3
     - name: zmk-split-peripheral-input-relay
       remote: badjeff
-      revision: zmk-v0.3
+      revision: main
     - name: zmk-input-behavior-listener
       remote: badjeff
-      revision: zmk-v0.3
+      revision: main
   self:
     path: config
