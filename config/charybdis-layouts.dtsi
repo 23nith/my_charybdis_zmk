@@ -66,15 +66,15 @@
             // =========================
             // Thumb Cluster – 3 keys per side
             // =========================
-            // Left
-            , <&key_physical_attrs 100 100  360  420  1500  398  790>
-            , <&key_physical_attrs 100 100  440  420  1500  398  790>
-            , <&key_physical_attrs 100 100  520  420  1500  398  790>
+            // Left – slightly UP
+            , <&key_physical_attrs 100 100  360  400  1500  398  790>
+            , <&key_physical_attrs 100 100  440  400  1500  398  790>
+            , <&key_physical_attrs 100 100  520  400  1500  398  790>
 
             // Right
-            , <&key_physical_attrs 100 100 1040  420 (-1500) 1102 790>
-            , <&key_physical_attrs 100 100 1120  420 (-1500) 1102 790>
-            , <&key_physical_attrs 100 100 1200  420 (-1500) 1102 790>
+            , <&key_physical_attrs 100 100 1040  440 (-1500) 1102 790>
+            , <&key_physical_attrs 100 100 1120  440 (-1500) 1102 790>
+            , <&key_physical_attrs 100 100 1200  440 (-1500) 1102 790>
             ;
     };
 };
