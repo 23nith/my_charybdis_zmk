@@ -83,14 +83,14 @@
             // =====================================================
 
             // Left Thumb Cluster
-            , <&key_physical_attrs 100 100  360  400  1500  398  790>
-            , <&key_physical_attrs 100 100  440  400  1500  398  790>
-            , <&key_physical_attrs 100 100  520  400  1500  398  790>
+            , <&key_physical_attrs 100 100  360  300  1500  398  790>
+            , <&key_physical_attrs 100 100  440  300  1500  398  790>
+            , <&key_physical_attrs 100 100  520  300  1500  398  790>
 
             // Right Thumb Cluster
-            , <&key_physical_attrs 100 100 1040  440 (-1500) 1102  790>
-            , <&key_physical_attrs 100 100 1120  440 (-1500) 1102  790>
-            , <&key_physical_attrs 100 100 1200  440 (-1500) 1102  790>
+            , <&key_physical_attrs 100 100 1040  300 (-1500) 1002  790>
+            , <&key_physical_attrs 100 100 1120  300 (-1500) 1082  790>
+            , <&key_physical_attrs 100 100 1200  300 (-1500) 1162  790>
             ;
     };
 };
