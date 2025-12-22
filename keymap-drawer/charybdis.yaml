@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
-  - BACK SPACE
+  - DELETE
   - {t: A, h: LEFT CONTROL}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT GUI}
@@ -142,7 +142,7 @@ layers:
   - O
   - P
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
-  - BACK SPACE
+  - DELETE
   - {t: A, h: LEFT CONTROL}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT GUI}
@@ -258,7 +258,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  scroll:
+  SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -345,6 +345,30 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   BT-RGB:
+  - EP TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RGB TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - RGB BRI
+  - RGB HUI
+  - RGB SAI
+  - RGB EFF
+  - RGB SPI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -352,35 +376,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB BRD
+  - RGB HUD
+  - RGB SAD
+  - RGB EFR
+  - RGB SPD
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

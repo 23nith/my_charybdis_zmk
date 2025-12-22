@@ -6,6 +6,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/rgb.h>
 
 // / {
 //     chosen { zmk,matrix_transform = &default_transform; };
@@ -175,7 +176,7 @@
         default_mac_layer {
             bindings = <
 &kp ESC         &kp Q                &kp W            &kp E            &kp R                    &kp T             &kp DE_Z  &kp U                             &kp I             &kp O             &kp P                           &kp DE_U_UMLAUT
-&kp BACKSPACE   &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hml LEFT_SHIFT F        &kp G             &kp H     &hmr RIGHT_SHIFT J                &hml RIGHT_GUI K  &hml RIGHT_ALT L  &hml RIGHT_CONTROL DE_O_UMLAUT  &kp DE_A_UMLAUT
+&kp DELETE      &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hml LEFT_SHIFT F        &kp G             &kp H     &hmr RIGHT_SHIFT J                &hml RIGHT_GUI K  &hml RIGHT_ALT L  &hml RIGHT_CONTROL DE_O_UMLAUT  &kp DE_A_UMLAUT
 &kp LEFT_SHIFT  &lt 6 DE_Y           &kp X            &kp C            &kp V                    &kp B             &kp N     &kp M                             &kp DE_COMMA      &kp DE_DOT        &lt 6 DE_MINUS                  &kp RIGHT_SHIFT
                                                       &lt 1 TAB        &hml LG(LEFT_ALT) SPACE  &lt 2 LEFT_GUI    &mo 1     &hmr RA(RC(RIGHT_GUI)) BACKSPACE  &lt 2 ENTER
             >;
@@ -210,7 +211,7 @@
             label = "WIN";
             bindings = <
 &kp ESC         &kp Q                &kp W            &kp E            &kp R              &kp T             &kp DE_Z  &kp U               &kp I             &kp O             &kp P                           &kp DE_U_UMLAUT
-&kp BACKSPACE   &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hml LEFT_SHIFT F  &kp G             &kp H     &hmr RIGHT_SHIFT J  &hml RIGHT_GUI K  &hml RIGHT_ALT L  &hml RIGHT_CONTROL DE_O_UMLAUT  &kp DE_A_UMLAUT
+&kp DELETE      &hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hml LEFT_SHIFT F  &kp G             &kp H     &hmr RIGHT_SHIFT J  &hml RIGHT_GUI K  &hml RIGHT_ALT L  &hml RIGHT_CONTROL DE_O_UMLAUT  &kp DE_A_UMLAUT
 &kp LEFT_SHIFT  &lt 6 DE_Y           &kp X            &kp C            &kp V              &kp B             &kp N     &kp M               &kp DE_COMMA      &kp DE_DOT        &lt 6 DE_MINUS                  &kp RIGHT_SHIFT
                                                       &lt 4 TAB        &kp SPACE          &lt 5 LEFT_GUI    &mo 4     &kp BACKSPACE       &lt 5 ENTER
             >;
@@ -248,7 +249,7 @@
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
-            label = "scroll";
+            label = "SCROLL";
         };
 
         sniper_layer {
@@ -264,10 +265,10 @@
 
         bt_rgb_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&ext_power EP_TOG  &trans        &trans        &trans        &trans        &trans          &rgb_ug RGB_TOG  &trans           &trans           &trans           &trans           &trans
+&bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans           &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI
+&trans             &trans        &trans        &trans        &trans        &trans          &trans           &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_EFR  &rgb_ug RGB_SPD
+                                               &trans        &trans        &trans          &trans           &trans           &trans
             >;
 
             label = "BT-RGB";
