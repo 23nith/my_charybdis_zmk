@@ -40,7 +40,7 @@ layers:
   - {t: TAB, h: MACNUM}
   - {t: SPACE, h: Gui+ LEFT ALT}
   - {t: LEFT GUI, h: MACNAV}
-  - MACNUM
+  - {t: ENTER, h: MACNUM}
   - {t: BACK SPACE, h: AGr+Ctl+ RIGHT GUI}
   - {t: ENTER, h: MACNAV}
   MACNUM:
@@ -169,7 +169,7 @@ layers:
   - {t: TAB, h: WNUM}
   - SPACE
   - {t: LEFT GUI, h: WNAV}
-  - WNUM
+  - {t: ENTER, h: WNUM}
   - BACK SPACE
   - {t: ENTER, h: WNAV}
   WNUM:
