@@ -1,5 +1,6 @@
 #include "charybdis.dtsi"
 #include "charybdis_pmw3610.dtsi"
+#include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 
 // The matrix transform is 6 columns over because the left half is 6 columns wide.
@@ -40,7 +41,6 @@
 	trackball_listener {
 		compatible = "zmk,input-listener";
 		device = <&trackball>;
-		/* Apply axis transformations via input processors */
 		input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
 	};
 };
