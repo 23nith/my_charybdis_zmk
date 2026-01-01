@@ -33,12 +33,9 @@
 
 &trackball {
 	status = "okay";
-	/* Zephyr native PMW3610 axis configuration */
-	swap-xy;
-	invert-x;
-	invert-y;
 };
 
+// https://github.com/badjeff/zmk-pmw3610-driver
 / {
 	trackball_listener {
 		compatible = "zmk,input-listener";
