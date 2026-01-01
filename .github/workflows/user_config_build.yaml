@@ -276,8 +276,8 @@ jobs:
         continue-on-error: true
         uses: actions/upload-artifact/merge@v4
         with:
-          pattern: artifact-firmware_reset_nano_v2
-          name: firmware-reset-nanov2
+          pattern: artifact-firmware_reset_nano
+          name: firmware-reset-nano
           delete-merged: true
 
       - name: Delete keymap artifacts
